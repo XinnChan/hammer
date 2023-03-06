@@ -38,7 +38,7 @@ def bot_hammering(url):
 			print("\033[94mbot is hammering...\033[0m")
 			time.sleep(.1)
 	except:
-		time.sleep(.1)
+		time.sleep()
 
 
 def down_it(item):
